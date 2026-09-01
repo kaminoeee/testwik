@@ -1,7 +1,7 @@
-/** @type {import('next').Next.jsConfig} */
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  // 静的最適化やサーバーサイドの重い処理をバイパスする設定
-  output: 'standalone',
+  // 最適化やトランスパイルでハングするのを防ぐ設定
+  swcMinify: false,
   typescript: {
     ignoreBuildErrors: true,
   },
