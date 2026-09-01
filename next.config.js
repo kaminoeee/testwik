@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // 最適化やトランスパイルでハングするのを防ぐ設定
-  swcMinify: false,
+  output: 'export',
   typescript: {
     ignoreBuildErrors: true,
   },
