@@ -5,7 +5,7 @@ export default function Home() {
     <div>
       {/* タブとタイトル */}
       <div className="border-b border-wikiBorder mb-4 flex space-x-6 text-sm">
-        <span className="border-b-2 border-black pb-2 font-medium cursor-pointer"><span>📄</span> ページ</span>
+        <span className="border-b-2 border-black pb-2 font-medium cursor-pointer">ページ</span>
         <span className="text-gray-500 pb-2 cursor-pointer">ノート</span>
         <div className="ml-auto space-x-3 text-sm">
           <Link href="/" className="text-black font-medium">閲覧</Link>
@@ -32,15 +32,10 @@ export default function Home() {
           <div className="border border-wikiBorder p-4">
             <h2 className="font-bold bg-gray-100 p-2 -mx-4 -mt-4 border-b border-wikiBorder mb-3">ニュース</h2>
             <ul className="list-disc pl-5 space-y-1">
-              <li>ロクペディアがVercel上で完璧に再現されました。</li>
+              <li>ロクペディアがVercel上で完璧にデプロイされました。</li>
               <li>アカウント作成や編集画面のモックも完備されています。</li>
             </ul>
           </div>
-        </div>
-      </div>
-    </div>
-  )
-}
         </div>
       </div>
     </div>
