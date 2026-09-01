@@ -20,7 +20,7 @@ export default function LoginPage() {
 
         <div className="flex items-center space-x-2 text-xs">
           <input type="checkbox" id="remember" />
-            <label htmlFor="remember" className="cursor-pointer">ログイン状態を保持する</label>
+          <label htmlFor="remember" className="cursor-pointer">ログイン状態を保持する</label>
         </div>
 
         <button className="w-full bg-[#36c] text-white py-2 rounded text-xs font-bold hover:bg-[#2a4b8d]">
