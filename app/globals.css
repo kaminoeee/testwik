@@ -27,3 +27,8 @@ input:focus, textarea:focus {
   outline: 1px solid #36c;
   border-color: #36c;
 }
+
+input:focus, textarea:focus {
+  outline: 1px solid #36c;
+  border-color: #36c;
+}
